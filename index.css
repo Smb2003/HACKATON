@@ -1,0 +1,225 @@
+.saylani_logo{
+    padding-left: 70px;
+    padding-top: 3px;
+}
+
+.navbar{
+    box-shadow: 1px 2px 5px silver;
+    background-color: white;
+}
+.main_flex{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+
+}
+.main_flex_text{
+    width: 70%;
+    padding: 10px;
+    
+}
+
+.txt{
+ max-width: 530px;
+ padding-left: 50px;
+ padding-top: 55px;
+
+}
+span{
+    color: green;
+}
+h3{
+    padding-left: 50px;
+    margin-top: 25px;
+}
+p{
+    max-width: 620px;
+    padding-left: 50px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.main_img{
+    padding-right: 30px;
+}
+.btnhain{
+   
+    margin: 100px;
+    padding: 30px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(250, 235, 215, 0.588);
+    
+    
+}
+
+.search{
+    display: inline-block;
+   
+}
+#srch{
+    width: 250px;
+    height: 43px;
+    border-radius: 3px;
+    outline: none;
+    border:0.25px solid black ;
+}
+#srch_btn{
+    height: 43px;
+    position: absolute;
+    padding-left: 10px;
+    left: 1;
+    background-color: rgba(0, 0, 0, 0.871);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.turkey_aid_img{
+    margin:0 auto;
+}
+.turkey_aid_ad{
+    display: flex;
+    justify-content: center;
+}
+.cards{
+    margin-top: 40px;
+    min-height: 400px;
+    /* background-color: aquamarine; */
+}
+.cards_heading{
+    text-align: center;
+    padding-top:20px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.subcards{
+    margin: 50px;
+ 
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+}
+.sub1{
+    text-align: center;
+    padding-top: 30px;
+    width: 190px;
+    height: 170px;
+    border-radius: 18px;
+    background-color: rgba(250, 235, 215, 0.535);
+    cursor: pointer;
+}
+.sub1:hover{
+    box-shadow: 2px 1px 4px black;
+}
+.Donationdiv{
+    padding: 30px;
+    min-height: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+.donation_img1{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    background: black;
+    background-image: url("images/Turkey\ Aid\ pic.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.donation_img2{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    background: black;
+    background-image: url("images/Sayalni\ Ramadan\ 2023.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.donation_img3{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    background: black;
+    background-image: url("images/Saylani\ Sadqah.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+.donation_img1:hover{
+    box-shadow: 2px 1px 10px black;
+}
+.donation_img2:hover{
+    box-shadow: 2px 1px 10px black;
+}
+.donation_img3:hover{
+    box-shadow: 2px 1px 10px black;
+}
+.donte_images{
+    height: 300px;
+    width: 350px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.background_effect{
+    /* background-image: url("images/Turkey\ Aid\ pic.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat; */
+    position: absolute;
+    color: white;
+    bottom: 5px;
+    padding: 3px;
+    border-radius:10px ;
+    
+    
+}
+h5{
+    padding-left: 7px;
+    font-weight: bolder;
+}
+.btn_donate{
+    width: 345px;
+    height: 40px;
+    border-radius: 6px;
+    background-color: green;
+    color: white;
+}
+footer{
+    background-image: url('images/footer_img1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    min-height: 280px;
+    position: relative;
+    background-color: black;
+}
+.donation_img3:hover{
+    box-shadow: 2px 1px 5px black;
+}
+
+.footer{
+    background-color: rgba(40, 18, 18, 0.737);
+    padding:70px 0;
+}
+.container{
+    max-width: 1170px;
+    margin:auto;
+}
+li>a{
+    text-decoration: none;
+    color: white;
+}
+.mob{
+    list-style-type: none;
+}
+.row3{
+    display: flex;
+    flex-wrap: wrap;
+}
+.footer-col{
+    margin-top: 50px;
+    width: 25%;
+    padding: 0 15px;
+    color: white;
+    padding-left: 60px;
+}
